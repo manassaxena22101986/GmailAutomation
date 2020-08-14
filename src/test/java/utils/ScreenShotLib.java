@@ -14,7 +14,7 @@ public class ScreenShotLib {
 	public void takeScreenshot(WebDriver driver, String filename) {
 		EventFiringWebDriver efwd = new EventFiringWebDriver(driver);
 		File src = efwd.getScreenshotAs(OutputType.FILE);
-		File dst = new File("C:\\Users\\manas\\eclipse-workspace\\Gmail\\screenshot\\"+filename +".png");
+		File dst = new File(".\\screenshot\\"+filename +".png");
 		
 		try {
 			FileUtils.copyFile(src, dst);

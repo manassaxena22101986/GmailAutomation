@@ -12,7 +12,7 @@ public class GenericLib {
 		String value = null;
 		try {
 	Properties prop = new Properties();
-	prop.load(new FileInputStream(new File("C:\\Users\\manas\\eclipse-workspace\\Gmail\\testData\\recipients.properties")));
+	prop.load(new FileInputStream(new File(".\\testData\\recipients.properties")));
 	value = prop.getProperty(key);
 	}
 		catch(FileNotFoundException e) {

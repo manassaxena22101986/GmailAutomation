@@ -115,7 +115,7 @@ public class Gmail {
 		screen.click(cmsc.getAttachmentLnk());
 		WaitStatementLib.isleep(5);
 		try {
-			Runtime.getRuntime().exec("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\testData\\FileUpload.exe");
+			Runtime.getRuntime().exec(".\\testData\\FileUpload.exe");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
