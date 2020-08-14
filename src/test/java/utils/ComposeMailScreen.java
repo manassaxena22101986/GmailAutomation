@@ -4,13 +4,13 @@ import org.sikuli.script.Pattern;
 
 public class ComposeMailScreen {	
 		
-	private Pattern composeBtn = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\composeBtn.png");
-	private Pattern idExistComposeBtn = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\idExistComposeBtn.png");
-	private Pattern toTxtBx = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\toTxtBx.png");
-	private Pattern subjectTxtBx = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\SubjectTxtBx.png");
-	private Pattern mailBodyTxtBx = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\mailBodyTxtBx.png");
-	private Pattern attachmentLnk = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\attachmentLink.png");
-	private Pattern sendBtn = new Pattern("C:\\Users\\manas\\eclipse-workspace\\GmailAutomation\\logo\\sendBtn.png");
+	private Pattern composeBtn = new Pattern(System.getProperty("user.dir")+"\\logo\\composeBtn.png");
+	private Pattern idExistComposeBtn = new Pattern(System.getProperty("user.dir")+"\\logo\\idExistComposeBtn.png");
+	private Pattern toTxtBx = new Pattern(System.getProperty("user.dir")+"\\logo\\toTxtBx.png");
+	private Pattern subjectTxtBx = new Pattern(System.getProperty("user.dir")+"\\logo\\SubjectTxtBx.png");
+	private Pattern mailBodyTxtBx = new Pattern(System.getProperty("user.dir")+"\\logo\\mailBodyTxtBx.png");
+	private Pattern attachmentLnk = new Pattern(System.getProperty("user.dir")+"\\logo\\attachmentLink.png");
+	private Pattern sendBtn = new Pattern(System.getProperty("user.dir")+"\\logo\\sendBtn.png");
 			
 	public Pattern getComposeBtn() {
 		return composeBtn;

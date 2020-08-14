@@ -8,6 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
  features = "features",
  glue= {"stepDefinition"},
+ tags = "@Scenario",
  plugin = {"html:target/htmlReport/","json:target/jsonReports/cucumber-report.json"},
  monochrome = true
  ) 

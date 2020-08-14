@@ -13,11 +13,12 @@ When I read first unread mail
 Then I should able to write subject and mailbody to the excel file
 And I close the browser
 
+@Scenario
 Scenario: to compose a mail and send email with attachment to recipient
 Given I am on gmail home page
 When i compose a mail
 And Add "recipient1" mail id from property file
-And Add Subject as "Manas Resume Attachment"
+And Add Subject as "Word Document Attachment"
 And attach a file
 And  click on send button
 Then should able to send the mail
